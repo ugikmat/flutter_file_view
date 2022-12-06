@@ -83,7 +83,7 @@ class FileViewLocalizations extends FileViewLocalizationsBase {
       localData = localizedValues[locale!.languageCode];
     }
     if (localData == null) {
-      return localizedValues['zh']![key];
+      return localizedValues['en']![key];
     }
     return localData[key];
   }
